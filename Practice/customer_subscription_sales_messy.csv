@@ -1,0 +1,51 @@
+Customer ID,Customer Name,Region,Plan Type,Signup Date,Monthly Revenue,Satisfaction Score,Subscription Status,Acquisition Channel,Support Tickets,City,Email
+1001,  Aditi Sharma ,North,Enterprise,2024-01-15,"12,500",4.7,Active,Online,3.0,Pune,aditi@example.com
+1002,Rahul Verma, south ,SMB,15/02/2024,"4,800",3.8,active,Partner,1.0,Chennai,rahul@example.com
+1003,MEERA IYER,East ,Consumer,2024/03/02,"1,250",,Churned,Online,2.0,Kolkata,meera@example.com
+1004,Kabir Khan,WEST,ENTERPRISE ,04-04-2024,"18,900",4.9,ACTIVE ,Direct,5.0,Mumbai,kabir@example.com
+1005,Neha Patel,North,SMB,,"5,200",4.1,Paused,online,2.0,Jaipur,neha@example.com
+1006,Arjun Rao,South,Consumer,2024-05-19,,3.2,Churned,Partner,1.0,Hyderabad,arjun@example.com
+1007,Sara Thomas,West,SMB,2024-06-07,"6,100",4.4,Active, direct ,3.0,Goa,sara@example.com
+1008,Vikram Singh,north,Enterprise,2024-07-21,"22,000",4.8,active,Online,6.0,Delhi,vikram@example.com
+1009,Ishita Das,East,Consumer,2024-08-11,"1,450",3.6,CHURNED ,Partner,2.0,Kolkata,ishita@example.com
+1010,Dev Malhotra,South ,Enterprise,2024-09-03,"16,500",4.6,Active,Direct,4.0,Bengaluru,dev@example.com
+1008,Ananya Bose,East,SMB,2024-10-14,"5,700",4.0,Active,Online,2.0,Kolkata,ananya@example.com
+1012,Rohan Mehta,West,Consumer,2024-11-22,"1,350",3.4,Churned,Partner,1.0,Mumbai,rohan@example.com
+1013,PRiya Nair ,South,SMB,2025-01-05,"6,800",4.5,Active,Direct,3.0,Chennai,priya@example.com
+1014,Karan Joshi,North,Enterprise,2025-02-18,"25,000",4.9,Active,Online,7.0,Delhi,karan@example.com
+1015,Tara Kapoor,West,SMB,2025/03/09,"5,900",4.2,Paused,Partner,2.0,Pune,tara@example.com
+1016,  Om Prakash,North,Consumer,2025-04-27,"1,100",3.1,Churned,Direct,1.0, jaipur ,om@example.com
+1017,Nisha Reddy,South,Enterprise,2025-05-13,"19,500",4.7,Active,Online,5.0,Hyderabad,nisha@example.com
+1018,Aman Gupta,East,SMB,2025-06-30,"7,200",,Active,Direct,3.0,Kolkata,aman@example.com
+1019,Pooja Shah,West,Consumer,2025-07-16,"1,600",3.7,Churned,Partner,2.0,Mumbai,pooja@example.com
+1020,Siddharth Jain,North,Enterprise,2025-08-24,"27,500",4.8,Active,Direct,8.0,Delhi,siddharth@example.com
+1021,Maya Fernandes,South,SMB,2025-09-12,"7,100",4.3,Active,Online,4.0,Bengaluru,
+1022,Yash Kulkarni,West,Enterprise,2025-10-06,"21,000",4.6,Active,Partner,5.0,Pune,yash@example.com
+1023,Ritika Sen,East,Consumer,2025-11-19,"1,300",3.3,Churned,Online,,Kolkata,ritika@example.com
+1024,Aditya Bansal,North,SMB,2025-12-02,"6,600",4.1,Active,Direct,3.0,Jaipur,aditya@example.com
+1025,Simran Kaur,South,Consumer,2026-01-17,"1,550",,Churned,Partner,2.0,Chennai,simran@example.com
+1026,  Kunal Sethi  ,West ,Enterprise,2026-02-09,"29,000",4.9,active,Online,9.0,Mumbai,kunal@example.com
+1027,Divya Menon,South,SMB,2026-03-14,"7,300",4.4,Active,Direct,4.0,Bengaluru,divya@example.com
+1028,Farhan Ali,East,Enterprise,2026-04-01,"17,800",4.5,Active,Partner,4.0,Kolkata,farhan@example.com
+1029,Lavanya Krishnan,South,Consumer,2026-04-15,"1,700",3.8,Churned,Online,2.0,Chennai,lavanya@example.com
+1030,Ritesh Soni,North,SMB,2026-05-20," 7,600 ",4.2,Active,Direct,4.0,Delhi,ritesh@example.com
+1031,Zoya Mirza,West,Enterprise,2026-06-04,"31,000",4.8,Active,Online,10.0,Mumbai,zoya@example.com
+1032,Harish Kumar,South,SMB,2026-06-18,"7,000",4.0,Paused,,3.0,Hyderabad,harish@example.com
+1033,Tanvi Ghosh,East,Consumer,2026-07-02,"1,450",3.6,Churned,Direct,2.0,Kolkata,tanvi@example.com
+1034,Manav Arora,North,Enterprise,2026-07-12,"33,000",4.9,Active,Online,11.0,Delhi,manav@example.com
+1035,Sneha Pillai,South,Enterprise,2026-07-19,"20,500",4.7,Active,Direct,6.0,Bengaluru,sneha@example.com
+1036,,West,Consumer,2026-07-22,"1,650",3.4,Churned,Partner,2.0,Mumbai,irfan@example.com
+1037,Kavya Rao,East,SMB,2026-07-25,"7,800",4.3,Active,Online,4.0,Kolkata,kavya@example.com
+1038,Naveen Bhat,South,Enterprise,31/13/2026,"23,000",4.6,Active,Direct,7.0,Chennai,naveen@example.com
+1039,Ira Mukherjee,East,Consumer,2026-07-29,"1,500",3.7,Churned,Partner,2.0,Kolkata,ira@example.com
+1040,Samar Khanna,North,SMB,2026-08-01,"7,900",4.2,Active,Online,4.0,Jaipur,samar@example.com
+1041,Rhea D'Souza,West,Enterprise,2026-08-03,"250,000",4.9,Active,Direct,12.0,Mumbai,rhea@example.com
+1042,Gautam Roy,East,SMB,2026-08-05,"8,100",4.1,Active,Partner,4.0,Kolkata,gautam@example.com
+1043,Alisha Fernandes,South,Consumer,2026-08-08,"1,800",9.8,Churned,Online,3.0,Goa,alisha@example.com
+1044,Nitin Chawla,North,Enterprise,2026-08-10,"35,000",4.8,Active,Direct,12.0,Delhi,nitin@example.com
+1045,Pari Desai,West,SMB,2026-08-12,"8,300",4.4,Active,Online,-2.0,Pune,pari@example.com
+1046,Aarav Kulkarni,South,Enterprise,2026-08-15,"24,000",4.7,Active,Partner,8.0,Bengaluru,aarav@example.com
+1047,Mira Saha,East,Consumer,2026-08-18,"1,650",3.5,active ,Direct,2.0,Kolkata,mira@example.com
+1048,Reyansh Gill,North,SMB,2026-08-20,"8,500",4.3,Active,Online,5.0,Jaipur,reyansh@example.com
+1049,Ishaan Paul,,Enterprise,2026-08-22,"19,000",4.6,Active,Partner,6.0,Kolkata,ishaan@example.com
+1001,  Aditi Sharma ,North,Enterprise,2024-01-15,"12,500",4.7,Active,Online,3.0,Pune,aditi@example.com
