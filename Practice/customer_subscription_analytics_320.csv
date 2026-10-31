@@ -1,0 +1,321 @@
+Customer ID,Customer Name,Age,City,Region,Plan,Signup Date,Monthly Revenue,Subscription Status,Acquisition Channel,Support Tickets,Satisfaction Score,Tenure Months,Device,Payment Method,Email
+50001,Kabir Bose,29, BENGALURU ,South,Standard,2025/10/03,"1,014",Past Due,Referral,2.0,4.0,11,Desktop,UPI,customer1@example.com
+50002,reyansh singh,35,Jaipur,North,Enterprise,2024-08-02,"8,350",Past Due,Referral,1.0,4.4,25,Desktop,Debit Card,customer2@example.com
+50003,ADITYA GUPTA,34,Kolkata,East,STANDARD ,29-Jun-2025,"1,103",Paused,Paid Search,1.0,3.4,15,Desktop,Net Banking,customer3@example.com
+50004,  Arjun Das ,27,chn,South,Premium,2025/01/16,"1,915",Past Due,Organic,4.0,3.6,20,iOS,UPI,customer4@example.com
+50005,kavya rao,31,Jaipur,North,Standard,28/07/2025,"1,079",Trial,Referral,4.0,3.9,14,Desktop,UPI,customer5@example.com
+50006,DIYA MENON,32,Bengaluru,South,Standard,2025/07/04,826,Active,Social,0.0,4.5,14,Web,UPI,customer6@example.com
+50007,ishaan bose,18,Bombay,West,Basic,2025/02/02,486,Churned,Referral,2.0,3.6,19,Desktop,Credit Card,customer7@example.com
+50008,  Vivaan Khan ,47,blr,South,Premium,,"1,986",Paused,Organic,4.0,4.0,21,Desktop,Wallet,customer8@example.com
+50009,Tara Kulkarni,34,Pune,West,Standard,28-Feb-2023,985,Past Due,Partner,2.0,3.9,43,Web,Net Banking,customer9@example.com
+50010,DIYA PATEL,30,Mumbai,north,Premium,28-Feb-2023,"1,998",Paused,Email,3.0,3.7,43,Web,Wallet,customer10@example.com
+50011,TARA DAS,33, HYDERABAD ,South,Premium,12-Feb-2024,"2,057",Active,Social,2.0,3.5,31,iOS,Net Banking,customer11@example.com
+50012,reyansh bose,31,Hyderabad,South,Standard,2024-11-21,"1,134",Paused,Email,0.0,4.2,22,Desktop,UPI,customer12@example.com
+50013,Reyansh Kapoor,29,amd,West,Basic,04/04/2026,416.67,Churned,Partner,3.0,5.0,5,Android,Credit Card,customer13@example.com
+50014,aarav mehta,36, COCHIN ,South,Basic,2024-06-25,515,Past Due,Social,1.0,4.1,27,Desktop,Wallet,customer14@example.com
+50015,ARJUN PATEL,47,,West,Standard,2025-06-11,"1,038",Active,Partner,3.0,4.3,15,Android,Wallet,customer15@example.com
+50016,Vivaan Menon,42,jai,North,Basic,2025/04/02,503,Past Due,Email,4.0,3.6,17,Desktop,Debit Card,customer16@example.com
+50017,PRIYA NAIR,46,Kolkata,East,Standard,2023/01/11,"1,049",Trial,Organic,5.0,3.9,44,iOS,UPI,customer17@example.com
+50018,Kavya Mehta,39,Bengaluru,South,Standard,01-May-2026,"1,023",Past Due,Paid Search,1.0,4.1,5,Desktop,UPI,customer18@example.com
+50019,SARA KHAN,19,chn,South,Basic,12/06/2026,516,Active,Organic,1.0,4.3,3,Android,Credit Card,customer19@example.com
+50020,AARAV BOSE,18, AHMEDABAD ,West,Basic,32/15/2025,549,Active,Email,2.0,4.9,11,Desktop,Debit Card,customer20@example.com
+50021,Kavya Sharma,19,ccu,East,Basic,23/11/2025,602.04,Churned,Partner,2.0,3.9,10,Desktop,Debit Card,customer21@example.com
+50022,  Kabir Kapoor ,30,Delhi,North,Standard,14/05/2026,"1,045",Past Due,Organic,3.0,2.7,4,iOS,Net Banking,
+50023,Sara Rao,29,hyd,South,Standard,2024/09/12,950,Active,Referral,5.0,4.3,24,Web,Wallet,customer23@example.com
+50024,nisha gupta,40,blr,South,BASIC ,2023/05/31,481,Paused,Partner,1.0,5.0,40,Android,Debit Card,customer24@example.com
+50025,KAVYA MENON,35, JAIPUR ,North,Premium,2023/07/07,"2,189",Past Due,Social,1.0,4.9,38,Desktop,Net Banking,customer25@example.com
+50026,Ishaan Rao,27, CHENNAI ,South,Basic,2024/09/02,537,Paused,Email,2.0,8.7,24,Web,Wallet,customer26@example.com
+50027,aditya singh,22,hyd,South,Standard,2024/11/21,909,Active,Referral,1.0,3.9,22,Web,Wallet,customer27@example.com
+50028,PRIYA SHARMA,44,chn,South,Standard,2024/02/04,825,Trial,Social,1.0,3.5,31,Desktop,Wallet,customer28@example.com
+50029,  Ishaan Gupta ,20,Kolkata,East,Enterprise,2023/07/20,"6,414",Paused,Email,0.0,3.6,38,iOS,Wallet,customer29@example.com
+50030,TARA SHARMA,24,del,North,Standard,18-Feb-2023,1052.51,Trial,Paid Search,,3.6,43,Desktop,Debit Card,customer30@example.com
+50031,Arjun Patel,28,Bangalore,South,Premium,04-Mar-2025,"2,611",Past Due,Paid Search,4.0,4.4,18,Android,Wallet,customer31@example.com
+50032,Sara Bose,37, JAI ,SOUTH ,Standard,,867,Churned,Referral,3.0,4.3,19,iOS,Debit Card,customer32@example.com
+50033,aarav khan,35,del,North,Premium,2025-02-06,"2,571",Active,Social,3.0,3.7,19,Web,Credit Card,customer33@example.com
+50034,aarav kulkarni,23, KOCHI ,South,Standard,2023-07-01,721,Past Due,Organic,2.0,4.4,39,Android,UPI,customer34@example.com
+50035,ANANYA DAS,22,Madras,South,Basic,26/01/2026,478,Churned,Referral,1.0,4.3,8,Android,UPI,customer35@example.com
+50036,Reyansh Iyer,18, MUMBAI ,West,Basic,2023-01-27,402,Churned,Organic,2.0,3.8,44,Web,Debit Card,customer36@example.com
+50037,Kavya Gupta,37,cok,South,Standard,2026-07-04,1148.81,Trial,,4.0,4.0,2,Desktop,UPI,customer37@example.com
+50038,ANANYA KULKARNI,32, BLR ,South,Standard,2023/08/13,"1,106",Past Due,Partner,3.0,4.7,37,Android,Wallet,customer38@example.com
+50039,ROHAN DAS,30,Ahmedabad,West,Standard,2023/08/29,"1,131",active,Partner,0.0,3.7,37,Android,Net Banking,customer39@example.com
+50040,arjun rao,18,Hyderabad,South,Basic,2026-06-04,372,Paused,Social,0.0,3.5,3,Desktop,Wallet,customer40@example.com
+50041,Kavya Nair,31,jai,North,Basic,14-Jul-2024,604,Paused,Referral,1.0,4.2,26,Desktop,UPI,customer41@example.com
+50042,  Aarav Kulkarni ,25, HYD ,South,Standard,08/06/2025,"1,009",Trial,Organic,3.0,3.9,15,Android,Credit Card,customer42@example.com
+50043,tara kapoor,43, JAI ,North,Enterprise,17-May-2023,"8,276",Churned,Social,2.0,4.3,40,Desktop,Credit Card,customer43@example.com
+50044,  Aarav Rao ,32, MUMBAI ,West,Premium,2025-09-15,"1,693",Past Due,Email,-3.0,3.8,12,Web,UPI,customer44@example.com
+50045,ROHAN PATEL,32,Cochin,South,Premium,2024/03/02,"1,943",Active,Organic,1.0,4.1,30,Android,Credit Card,customer45@example.com
+50046,  Rohan Das ,18,blr,South,Standard,2024-08-27,562,Past Due,Organic,4.0,4.0,25,Desktop,Debit Card,customer46@example.com
+50047,Sara Gupta,37,Cochin,South,Basic,2024-05-31,512,Trial,Social,1.0,4.2,28,Web,UPI,customer47@example.com
+50048,ISHAAN KULKARNI,48,New Delhi,North,Premium,2026-03-06,"2,354",Paused,Partner,2.0,4.0,6,Desktop,Wallet,customer48@example.com
+50049,Arjun Khan,18,Bengaluru,South,Premium,10/08/2025,"1,879",Trial,Organic,2.0,3.8,13,Web,Net Banking,customer49@example.com
+50050,  Kavya Kulkarni ,31,hyd,South,Standard,2025/03/24,936,Active,Email,2.0,4.4,18,Web,Credit Card,customer50@example.com
+50051,aditya patel,33,amd,West,Premium,19/07/2026,"2,352",Paused,Paid Search,1.0,4.3,2,Android,Wallet,customer51@example.com
+50052,ANANYA MEHTA,57,Kolkata,East,Basic,03-Oct-2025,578,Active,Paid Search,1.0,4.4,11,iOS,UPI,customer52@example.com
+50053,  Arjun Gupta ,46,chn,South,Standard,19-Jan-2024,991,Active,Referral,4.0,5.0,32,Web,Wallet,customer53@example.com
+50054,priya bose,36,del,West,Basic,06/03/2026,440,Paused,Social,2.0,3.6,6,Android,UPI,customer54@example.com
+50055,Meera Menon,18,Pune,West,Basic,2025/08/17,360,Churned,Organic,2.0,4.5,13,Android,Wallet,customer55@example.com
+50056,Nisha Nair,18,Hyderabad,South,Enterprise,2026-05-27,"7,755",Churned,,2.0,3.0,4,Android,Credit Card,customer56@example.com
+50057,ROHAN RAO,31,pnq,West,Basic,2023/06/21,537,Past Due,Email,1.0,5.0,39,iOS,UPI,customer57@example.com
+50058,Kabir Rao,25,Bangalore,South,Basic,2023-10-06,460,Active,Referral,1.0,2.8,35,Android,Debit Card,customer58@example.com
+50059,aditya iyer,36,Kolkata,East,Premium,2026/06/05,"999,999",Past Due,Paid Search,3.0,4.0,3,Web,Credit Card,customer59@example.com
+50060,  Aarav Kapoor ,28,Cochin,South,Premium,15/05/2023,"2,015",Churned,Referral,2.0,5.0,40,iOS,Credit Card,customer60@example.com
+50061,  Diya Menon ,37,Mumbai,West,Standard,27-Jan-2026,898.77,Past Due,Referral,0.0,,8,Desktop,Net Banking,customer61@example.com
+50062,Vivaan Gupta,20,Bangalore,South,Premium,04/02/2023,"2,059",Active,Referral,4.0,4.0,43,Desktop,Debit Card,customer62@example.com
+50063,  Sara Patel ,18,Hyderabad,South,Premium,18-Oct-2024,"2,295",Active,Paid Search,0.0,3.0,23,iOS,Net Banking,customer63@example.com
+50064,Aditya Kapoor,30,ccu,East,Standard,18-May-2025,809,Churned,Paid Search,0.0,5.0,16,Desktop,Wallet,customer64@example.com
+50065,  Aarav Rao ,25,Calcutta,East,Standard,18-Apr-2024,1038.18,Trial,Email,,4.3,29,Web,Debit Card,customer65@example.com
+50066,aditya nair,35,amd,West,Standard,07/01/2025,953,Paused,Organic,2.0,4.1,20,Desktop,Wallet,customer66@example.com
+50067,SARA NAIR,43,Ahmedabad,West,Premium,20/09/2025,"2,022",Past Due,,2.0,4.4,12,Web,Wallet,customer67@example.com
+50068,Vivaan Kulkarni,37,cok,South,Basic,2024-04-06,514,Trial,Email,0.0,4.6,29,Web,Wallet,customer68@example.com
+50069,  Kabir Rao ,40,hyd,South,Standard,2025-09-29,"1,098",Trial,Social,3.0,3.6,12,iOS,Wallet,customer69@example.com
+50070,Arjun Kapoor,26,Bangalore,South,Basic,24-Jul-2025,481,Past Due,Referral,3.0,3.4,14,Web,Debit Card,customer70@example.com
+50071,  Sara Nair ,31,hyd,South,Premium,19/10/2024,"2,269",Active,Partner,3.0,3.5,23,Android,Net Banking,customer71@example.com
+50072,ISHAAN PATEL,28,hyd,South,Basic,2024-05-20,435,Paused,Referral,1.0,4.3,28,Web,Credit Card,customer72@example.com
+50073,Meera Iyer,33,Bombay,West,Basic,13-Feb-2024,398,Paused,Referral,3.0,,31,Web,Debit Card,customer73@example.com
+50074,  Priya Menon ,38, MADRAS ,South,Standard,09-Aug-2024,884,Active,Paid Search,3.0,4.3,25,Android,UPI,customer74@example.com
+50075,Aarav Gupta,30,Kolkata,East,Standard,2026/05/19,"1,096",Active,Email,2.0,3.9,4,iOS,Net Banking,customer75@example.com
+50076,Diya Singh,42,Jaipur,North,Premium,2025/12/29,"2,082",Paused,Partner,1.0,3.1,9,Web,Net Banking,customer76@example.com
+50077,Arjun Mehta,42,Mumbai,West,Standard,32/15/2025,992,Trial,Paid Search,2.0,4.1,3,Desktop,UPI,customer77@example.com
+50078,NISHA KAPOOR,38,cok,South,Basic,2024-06-07,502,Active,Paid Search,3.0,4.7,27,Android,Net Banking,customer78@example.com
+50079,Tara Menon,18,Bengaluru,South,Standard,2026/02/13,"1,077",Paused,Email,3.0,2.9,7,Desktop,UPI,customer79@example.com
+50080,  Meera Khan ,34,Jaipur,North,Enterprise,24/05/2024,"7,331",Trial,Email,3.0,3.8,28,iOS,Credit Card,customer80@example.com
+50081,SARA SHARMA,39,hyd,South,Standard,02-Jan-2025,982,Active,Partner,2.0,4.1,20,Desktop,Credit Card,customer81@example.com
+50082,  Kavya Bose ,41,cok,South,Standard,28/04/2024,"1,030",Active,Organic,2.0,4.7,29,Android,UPI,customer82@example.com
+50083,  Aarav Iyer ,31,Bengaluru,South,Basic,2026-07-10,501,Trial,Paid Search,2.0,4.3,2,iOS,Net Banking,customer83@example.com
+50084,ananya bose,26,hyd,South,Premium,19/02/2026,"1,813",Paused,Social,1.0,3.6,7,Web,UPI,customer84@example.com
+50085,TARA PATEL,27,Bangalore,South,Basic,15-Jun-2024,480,Paused,Email,2.0,2.4,27,iOS,Debit Card,customer85@example.com
+50086,TARA DAS,31,Cochin,South,Standard,2026-06-12,800,Paused,Social,1.0,3.8,3,iOS,Debit Card,customer86@example.com
+50087,Tara Das,34,Mumbai,West,Enterprise,27/10/2023,"6,104",Past Due,Organic,3.0,4.4,35,Web,Wallet,customer87@example.com
+50088,reyansh kapoor,37,Chennai,South,Enterprise,10/04/2026,"8,397",Past Due,Referral,2.0,4.0,5,Desktop,Debit Card,
+50089,ishaan singh,30, COK ,South,Basic,,458,Active,Referral,1.0,4.4,31,Android,Credit Card,customer89@example.com
+50090,  Arjun Iyer ,38,pnq,West,Basic,2025/11/16,390,Active,Referral,,4.2,10,Android,Net Banking,customer90@example.com
+50091,aarav iyer,26,pnq,West,Premium,2025/11/19,"1,935",Paused,Referral,0.0,3.2,10,Android,Debit Card,customer91@example.com
+50092,reyansh patel,42, BLR ,South,Enterprise,2023/09/13,"5,199",Trial,Partner,3.0,3.3,36,Android,Credit Card,customer92@example.com
+50093,  Priya Kulkarni ,21,Hyderabad,South,Standard,13-Oct-2023,995,Past Due,Social,0.0,3.4,35,Desktop,Credit Card,customer93@example.com
+50094,ISHAAN DAS,40,blr,South,Premium,02-Jul-2023,"1,753",Trial,Referral,1.0,3.9,38,Android,Debit Card,customer94@example.com
+50095,  Kabir Sharma ,33,Pune,West,Basic,09/11/2024,386,Trial,Email,0.0,3.5,22,Web,Wallet,customer95@example.com
+50096,Tara Khan,34,Chennai,South,Premium,2025/12/20,"2,093",Paused,Referral,2.0,4.8,9,Web,Credit Card,customer96@example.com
+50097,Aarav Iyer,26,mum,West,Standard,25-Jun-2026,996,Paused,Email,2.0,3.7,3,Web,Wallet,customer97@example.com
+50098,AARAV MEHTA,23,Cochin,South,Standard,2023-09-17,"1,118",Churned,Referral,2.0,4.5,36,Web,Debit Card,customer98@example.com
+50099,MEERA IYER,22,,South,Premium,2023-11-07,"1,854",Trial,Partner,0.0,3.9,34,Android,Credit Card,customer99@example.com
+50100,Ishaan Gupta,32,Bangalore,South,Basic,12/03/2024,497,active,Paid Search,3.0,4.1,30,Web,Wallet,customer100@example.com
+50101,kavya gupta,34,mum,West,Premium,18/07/2024,2369.25,Active,Partner,0.0,4.3,26,Web,Wallet,customer101@example.com
+50102,KABIR GUPTA,38,blr,South,Basic,16-Jun-2026,512,Paused,Social,3.0,3.8,3,iOS,Wallet,customer102@example.com
+50103,Rohan Rao,56,Mumbai,West,Standard,04/07/2023,959.18,Paused,Organic,2.0,4.1,38,Android,Credit Card,customer103@example.com
+50104,KAVYA NAIR,37, BOMBAY ,West,Standard,2024-03-09,"1,155",Trial,Email,2.0,4.0,30,iOS,Net Banking,customer104@example.com
+50105,  Ananya Khan ,32, PUNE ,West,Premium,20-Feb-2023,"1,581",Past Due,Email,1.0,3.9,43,Android,Credit Card,customer105@example.com
+50106,rohan kulkarni,29,ccu,East,Standard,19/06/2025,1128.57,Past Due,Partner,0.0,4.0,15,Web,Net Banking,customer106@example.com
+50107,priya kapoor,34,Bangalore,South,Premium,2025/07/29,"1,735",Past Due,Organic,2.0,3.9,14,Android,UPI,customer107@example.com
+50108,  Kavya Kapoor ,18,mum,West,ENTERPRISE ,03/08/2023,"7,403",Paused,Partner,2.0,4.7,37,Web,Wallet,customer108@example.com
+50109,aarav rao,18,amd,West,STANDARD ,13/04/2023,973,Active,Paid Search,1.0,2.7,41,iOS,Wallet,customer109@example.com
+50110,VIVAAN MENON,40,pnq,West,Premium,2024/02/04,"2,545",Past Due,Paid Search,2.0,,31,Desktop,UPI,customer110@example.com
+50111,ADITYA MEHTA,34,Jaipur,North,Standard,2023-11-02,"1,154",Churned,Email,2.0,4.8,34,Web,Net Banking,customer111@example.com
+50112,vivaan gupta,23, HYD ,South,Standard,2023/02/22,1118.84,Paused,Partner,,4.5,43,Desktop,Debit Card,customer112@example.com
+50113,Ishaan Kapoor,38,Ahmedabad,West,Basic,11/04/2024,589,Active,Paid Search,1.0,5.0,29,Android,Wallet,customer113@example.com
+50114,Sara Khan,39,Cochin,South,Standard,2026-04-08,893,Active,Email,6.0,3.6,5,Android,Debit Card,customer114@example.com
+50115,KABIR KULKARNI,21,chn,South,Premium,2024/07/22,"1,786",Churned,Social,4.0,3.8,26,Web,Wallet,customer115@example.com
+50116,Priya Rao,25,amd,West,Basic,2024/06/02,580,Paused,Social,,4.7,27,Android,Credit Card,customer116@example.com
+50117,Tara Iyer,23,hyd,South,Basic,18-Oct-2024,484,Paused,Email,2.0,5.0,23,Desktop,UPI,customer117@example.com
+50118,NISHA MENON,28,Bengaluru,South,Enterprise,2024-10-08,"7,205",Paused,Organic,1.0,3.5,23,iOS,UPI,customer118@example.com
+50119,ISHAAN BOSE,32,amd,West,Standard,2024-04-23,890,past_due,Email,1.0,4.1,29,Web,UPI,customer119@example.com
+50120,ROHAN BOSE,25,chn,South,Basic,29-Jun-2023,545,Paused,Paid Search,,8.7,39,Desktop,UPI,customer120@example.com
+50121,  Diya Das ,33,Calcutta,East,PREMIUM ,31/05/2025,"2,408",Active,Referral,2.0,3.9,16,Web,Credit Card,customer121@example.com
+50122,AARAV KAPOOR,36,Ahmedabad,West,Basic,03/04/2024,568,Past Due,Paid Search,4.0,4.0,29,iOS,UPI,customer122@example.com
+50123,Aditya Singh,35,Madras,South,Basic,09-Mar-2025,374,Past Due,Email,4.0,2.8,18,Desktop,UPI,customer123@example.com
+50124,sara gupta,23,New Delhi,North,Basic,2025/02/04,450,Past Due,Partner,4.0,5.0,19,Android,Debit Card,customer124@example.com
+50125,Reyansh Bose,44,hyd,South,Standard,2025/08/25,934,Active,Referral,3.0,2.8,13,Desktop,Credit Card,customer125@example.com
+50126,  Nisha Singh ,33,pnq,West,Standard,16/10/2025,"1,183",Trial,Partner,5.0,3.8,11,Desktop,Credit Card,customer126@example.com
+50127,  Aarav Mehta ,46,Ahmedabad,West,Standard,2025-06-14,980,Churned,Partner,3.0,3.9,15,Android,Wallet,customer127@example.com
+50128,  Vivaan Patel ,29, AHMEDABAD ,West,Standard,10-Jul-2024,951,Paused,Partner,2.0,4.8,26,Android,Credit Card,customer128@example.com
+50129,Diya Menon,18, JAIPUR ,North,Premium,19/08/2023,"2,308",Past Due,Email,3.0,4.5,37,Web,Wallet,customer129@example.com
+50130,NISHA KULKARNI,31,blr,South,Premium,2025-05-27,"2,168",Past Due,Referral,2.0,3.6,16,Android,Net Banking,customer130@example.com
+50131,Nisha Singh,27,pnq,West,Standard,2024/12/01,"1,206",Paused,Email,1.0,4.7,21,Web,Net Banking,customer131@example.com
+50132,Diya Bose,33, KOCHI ,South,Basic,04/08/2023,402,Active,Social,3.0,2.8,37,Android,UPI,customer132@example.com
+50133,  Nisha Menon ,55,New Delhi,North,Standard,2023/09/20,948,Trial,Paid Search,1.0,4.0,36,Web,Credit Card,customer133@example.com
+50134,ROHAN MENON,37,Hyderabad,South,Standard,25-Nov-2025,"1,080",Churned,Email,1.0,2.8,10,iOS,UPI,customer134@example.com
+50135,DIYA IYER,27,blr,South,Basic,19/02/2026,499,Paused,,0.0,3.9,7,Android,Wallet,customer135@example.com
+50136,Tara Menon,36,Cochin,South,Standard,08-Dec-2024,880,Churned,Referral,0.0,3.6,21,Web,Net Banking,customer136@example.com
+50137,ANANYA NAIR,24,pnq,West,PREMIUM ,24/11/2024,"2,057",Past Due,Paid Search,3.0,5.0,22,Web,Net Banking,customer137@example.com
+50138,Meera Singh,20, AHMEDABAD ,West,Standard,2025-08-17,730,Active,Paid Search,2.0,3.7,13,Desktop,Debit Card,customer138@example.com
+50139,  Meera Patel ,40,Kolkata,East,Basic,2023/07/24,427,Past Due,Email,1.0,4.0,38,Android,Debit Card,customer139@example.com
+50140,kavya kapoor,46,amd,West,Premium,2023/10/11,"2,465",Past Due,Organic,3.0,3.8,35,Android,Credit Card,customer140@example.com
+50141,ARJUN KAPOOR,25,jai,North,Premium,2023-05-08,"1,903",Active,Referral,3.0,3.8,40,Desktop,Credit Card,customer141@example.com
+50142,Meera Mehta,31,jai,North,Standard,16/08/2023,847,Active,Email,0.0,4.0,37,Desktop,Credit Card,customer142@example.com
+50143,Kabir Menon,52,Kolkata,East,Standard,21/09/2025,926,Trial,Email,1.0,4.9,12,iOS,Wallet,customer143@example.com
+50144,MEERA SHARMA,39,Chennai,West,Premium,,"2,558",Past Due,Social,2.0,3.8,31,iOS,Credit Card,customer144@example.com
+50145,DIYA NAIR,20,Jaipur,North,Standard,2026/04/23,754,Trial,Paid Search,3.0,3.2,5,Web,Net Banking,customer145@example.com
+50146,ARJUN PATEL,23,Bengaluru,South,Standard,2026-05-04,985,Churned,Partner,1.0,4.0,4,iOS,Net Banking,customer146@example.com
+50147,Reyansh Das,54,Kolkata,East,Standard,2023-11-01,"1,023",Churned,Paid Search,5.0,,34,Android,Debit Card,customer147@example.com
+50148,Sara Khan,21, AMD ,West,Basic,10-Jun-2023,543,Past Due,Paid Search,0.0,4.9,39,Android,Net Banking,customer148@example.com
+50149,Arjun Khan,32,ccu,East,Enterprise,13-Sep-2024,"7,931",Active,Organic,2.0,3.9,24,Android,Debit Card,customer149@example.com
+50150,  Ishaan Das ,35,del,North,Standard,2025/04/22,994,Past Due,,0.0,4.8,17,Android,Net Banking,customer150@example.com
+50151,NISHA MENON,35, COCHIN ,South,Basic,06-Feb-2025,475,Paused,Email,3.0,3.1,19,Web,Debit Card,customer151@example.com
+50152,ISHAAN PATEL,26,Mumbai,West,Enterprise,11/11/2023,"7,158",Paused,Partner,3.0,,34,iOS,Wallet,customer152@example.com
+50153,Diya Sharma,19,amd,West,Standard,06/02/2024,956,Active,Email,5.0,4.3,31,Desktop,Net Banking,
+50154,Ananya Rao,22,Kolkata,East,Basic,2023/05/14,541,Churned,Referral,3.0,3.4,40,iOS,Credit Card,customer154@example.com
+50155,Reyansh Sharma,27,blr,South,Basic,23/07/2025,551,Active,Email,1.0,4.2,14,Android,UPI,customer155@example.com
+50156,kabir iyer,28,Ahmedabad,north,Premium,32/15/2025,"2,231",Paused,Partner,2.0,4.0,5,iOS,Debit Card,customer156@example.com
+50157,ADITYA KHAN,40, KOLKATA ,East,Standard,2026-02-21,863,Churned,Partner,3.0,3.3,7,iOS,Net Banking,customer157@example.com
+50158,rohan sharma,33,Hyderabad,South,Premium,27/07/2024,"1,893",Churned,Referral,2.0,4.4,26,Desktop,UPI,customer158@example.com
+50159,Tara Singh,18,del,North,Premium,2023/11/09,"2,185",Churned,Social,2.0,2.8,34,Desktop,Net Banking,customer159@example.com
+50160,  Sara Khan ,47,pnq,West,Basic,2024-10-26,545,Trial,Referral,6.0,,23,Web,UPI,customer160@example.com
+50161,  Aarav Kapoor ,20,pnq,West,Standard,26/07/2024,"1,057",Paused,Paid Search,1.0,,26,Android,Wallet,customer161@example.com
+50162,Aarav Sharma,35,Delhi,North,Enterprise,03/05/2026,"7,928",Trial,Partner,2.0,3.8,4,Desktop,Wallet,customer162@example.com
+50163,PRIYA PATEL,38,amd,West,Enterprise,2024/01/18,"6,801",Trial,Referral,,2.7,32,iOS,UPI,customer163@example.com
+50164,MEERA MEHTA,30,Delhi,North,Premium,21-Jul-2025,"2,001",Churned,Referral,6.0,4.1,14,iOS,Debit Card,customer164@example.com
+50165,  Kabir Gupta ,28, PUNE ,West,Basic,13/02/2025,479.3,Active,Organic,2.0,3.9,19,Web,Debit Card,customer165@example.com
+50166,ARJUN NAIR,44,Madras,South,Standard,2023-10-20,772,Active,Email,4.0,4.6,35,iOS,Credit Card,customer166@example.com
+50167,NISHA PATEL,23, AMD ,West,Standard,05-Jan-2025,854,Trial,Partner,5.0,3.9,20,iOS,Credit Card,customer167@example.com
+50168,SARA IYER,35,blr,South,Premium,2024/03/02,"1,968",Past Due,Referral,-3.0,3.0,30,Desktop,Net Banking,customer168@example.com
+50169,  Meera Das ,43,mum,West,Premium,03-Jun-2024,"1,954",Paused,Paid Search,5.0,4.7,27,Web,Debit Card,customer169@example.com
+50170,Priya Gupta,35,chn,South,Basic,2025/02/04,486.33,Churned,Paid Search,2.0,4.6,19,iOS,Net Banking,customer170@example.com
+50171,kabir singh,33,Hyderabad,South,Basic,2026-03-01,519,Paused,Organic,2.0,3.6,7,Desktop,Wallet,customer171@example.com
+50172,Reyansh Sharma,44,Kochi,South,Basic,12-Jan-2025,393,Churned,Partner,0.0,4.0,20,Android,Wallet,customer172@example.com
+50173,AARAV SHARMA,42,Chennai,South,Basic,20-Sep-2024,551,Past Due,Referral,8.0,3.9,24,Web,Wallet,customer173@example.com
+50174,  Nisha Kulkarni ,29,jai,North,Premium,2025-12-01,"1,844",Trial,Referral,1.0,4.2,9,Web,Wallet,customer174@example.com
+50175,ishaan bose,30,Pune,West,Premium,22/09/2023,"2,075",Churned,Paid Search,2.0,3.3,36,Desktop,UPI,customer175@example.com
+50176,DIYA SINGH,21,Ahmedabad,West,Standard,28/10/2024,"1,031",Past Due,Organic,3.0,3.2,23,Desktop,Debit Card,customer176@example.com
+50177,DIYA SINGH,30,mum,West,Premium,2023-01-18,"2,142",Active,Organic,1.0,4.2,44,Desktop,Net Banking,customer177@example.com
+50178,nisha iyer,34, NEW DELHI ,North,Standard,2025/11/03,"1,033",Churned,Organic,,3.6,10,Web,Credit Card,customer178@example.com
+50179,PRIYA KAPOOR,40,New Delhi,North,Enterprise,2025/04/06,6399.11,Churned,Paid Search,5.0,3.7,17,Web,Debit Card,customer179@example.com
+50180,SARA KAPOOR,28,cok,South,STANDARD ,2024-04-21,"1,089",Churned,Social,2.0,3.4,29,iOS,UPI,customer180@example.com
+50181,Kabir Rao,45, MUM ,West,Enterprise,14-Apr-2025,"7,541",Paused,Organic,2.0,3.9,17,Web,Debit Card,customer181@example.com
+50182,aarav mehta,27,cok,South,Standard,17/03/2025,962,Active,Social,3.0,3.8,18,Web,Debit Card,customer182@example.com
+50183,Kabir Nair,25,Pune,West,Premium,01-Oct-2025,"1,956",Active,Email,1.0,4.1,11,iOS,Credit Card,customer183@example.com
+50184,meera iyer,32,chn,South,Basic,09/10/2024,478,Trial,Referral,1.0,3.3,23,Desktop,UPI,customer184@example.com
+50185,Meera Das,20,cok,South,Standard,2024/03/16,854,Trial,Email,1.0,3.5,30,Web,UPI,customer185@example.com
+50186,Priya Nair,37,Cochin,South,Basic,2025-04-27,436,Paused,Partner,1.0,5.0,17,Android,Net Banking,customer186@example.com
+50187,meera kulkarni,18,hyd,South,Premium,2023-12-14,"1,682",Past Due,Paid Search,,4.4,33,Web,Credit Card,customer187@example.com
+50188,reyansh patel,41,cok,South,Premium,25/04/2023,"2,083",Past Due,Paid Search,1.0,4.5,41,iOS,Wallet,customer188@example.com
+50189,sara das,31,,West,Premium,2026-03-09,"2,571",Churned,Email,3.0,3.8,6,iOS,Wallet,customer189@example.com
+50190,Sara Kapoor,25,jai,North,Basic,2025/07/03,601,Paused,Organic,2.0,3.3,14,Android,Credit Card,customer190@example.com
+50191,rohan bose,25,del,North,Standard,2024/08/31,"1,071",Active,Paid Search,4.0,4.8,25,iOS,Wallet,customer191@example.com
+50192,PRIYA BOSE,32,Cochin,South,Premium,2025/07/14,"1,922",Past Due,Social,4.0,4.4,14,iOS,Debit Card,customer192@example.com
+50193,ARJUN SHARMA,31,jai,North,Premium,2025/10/12,"1,963",Active,,2.0,4.4,11,Web,UPI,customer193@example.com
+50194,SARA NAIR,41, CHENNAI ,South,Standard,2024/03/04,"1,028",Churned,Email,1.0,3.9,30,Web,Debit Card,customer194@example.com
+50195,  Ishaan Khan ,32,Delhi,North,Enterprise,07/07/2025,"8,825",Trial,Referral,0.0,3.5,14,Desktop,Wallet,customer195@example.com
+50196,rohan kapoor,33,Chennai,South,Premium,16/07/2026,"2,135",Past Due,Organic,2.0,4.4,2,Desktop,Net Banking,customer196@example.com
+50197,Rohan Das,35,blr,South,BASIC ,07/08/2024,439,Active,Social,1.0,3.3,25,Desktop,Net Banking,customer197@example.com
+50198,Ananya Das,34,Bangalore,South,Premium,08/07/2025,"1,948",Churned,Partner,0.0,4.2,14,iOS,Credit Card,customer198@example.com
+50199,  Aarav Gupta ,36, MUM ,West,Standard,2023/08/31,840,Churned,Partner,7.0,,37,Web,Debit Card,customer199@example.com
+50200,Kavya Kulkarni,35,Chennai,South,Basic,02/02/2025,497,Past Due,Social,0.0,3.5,19,iOS,Debit Card,customer200@example.com
+50201,ishaan singh,29,Bombay,West,Standard,2025-02-05,"1,166",Past Due,Organic,2.0,4.8,19,Web,Wallet,customer201@example.com
+50202,  Nisha Bose ,35, JAI ,North,Standard,2025/02/05,"999,999",Past Due,Organic,2.0,,19,Desktop,UPI,customer202@example.com
+50203,  Aarav Iyer ,33,Pune,West,Basic,2025/11/21,454,Trial,Partner,,2.8,10,Web,Wallet,customer203@example.com
+50204,Kavya Singh,27,Kochi,South,Standard,2025/03/26,"1,133",Active,Paid Search,1.0,5.0,18,Web,UPI,customer204@example.com
+50205,ADITYA KHAN,27,del,North,Standard,2023-02-04,"1,095",Past Due,Paid Search,2.0,4.3,43,Web,Wallet,customer205@example.com
+50206,AARAV KAPOOR,32,Jaipur,North,Premium,24/10/2024,"1,856",Trial,Partner,2.0,,23,Web,Debit Card,customer206@example.com
+50207,DIYA PATEL,23,Calcutta,north,Standard,2023/08/23,"1,013",Active,Referral,2.0,4.1,37,iOS,Credit Card,customer207@example.com
+50208,  Reyansh Nair ,23,Calcutta,East,Basic,31/03/2026,520,Churned,Partner,0.0,4.5,6,Android,Net Banking,customer208@example.com
+50209,Vivaan Bose,40,Madras,South,Enterprise,2025-05-16,"5,900",Past Due,Referral,3.0,3.7,16,Web,Credit Card,customer209@example.com
+50210,vivaan iyer,18,ccu,East,Premium,,"2,146",Churned,Paid Search,0.0,3.3,33,Desktop,Net Banking,customer210@example.com
+50211,Kabir Bose,34,Madras,South,Standard,29-Oct-2025,935,Trial,Referral,1.0,4.2,11,Desktop,Wallet,customer211@example.com
+50212,tara singh,30,blr,South,Premium,2024/12/26,"1,665",Trial,Partner,0.0,,21,Android,Debit Card,customer212@example.com
+50213,ishaan singh,22,cok,South,STANDARD ,12/11/2024,"1,011",Active,Partner,0.0,5.0,22,Desktop,Credit Card,customer213@example.com
+50214,priya singh,36, AHMEDABAD ,West,Basic,2025/11/23,558,Churned,Paid Search,1.0,4.2,10,Desktop,Wallet,customer214@example.com
+50215,  Aditya Sharma ,26,amd,West,Premium,05-Dec-2024,"2,013",Active,Email,2.0,2.6,21,iOS,Net Banking,customer215@example.com
+50216,  Reyansh Patel ,22,jai,North,Premium,2024-02-23,"2,179",Past Due,Social,4.0,4.5,31,iOS,Wallet,customer216@example.com
+50217,ISHAAN RAO,25,Hyderabad,South,Basic,20/04/2024,510,Churned,,0.0,3.3,29,Android,Net Banking,customer217@example.com
+50218,sara rao,43, COCHIN ,South,Standard,08-Jan-2026,676,Paused,Partner,0.0,4.3,8,Web,Wallet,customer218@example.com
+50219,ARJUN RAO,33, HYD ,South,Basic,11-Feb-2026,529,Paused,Email,3.0,4.7,7,Android,Net Banking,customer219@example.com
+50220,kavya gupta,43,jai,North,Basic,06/07/2024,508,Trial,Referral,1.0,3.8,26,Android,Credit Card,customer220@example.com
+50221,KABIR BOSE,32,Madras,South,Standard,16-Nov-2023,"1,088",Paused,Partner,3.0,3.6,34,Android,UPI,customer221@example.com
+50222,  Kavya Menon ,39, HYD ,South,Enterprise,2024-05-09,"8,064",Paused,Organic,1.0,4.2,28,Android,Credit Card,customer222@example.com
+50223,  Sara Mehta ,31, AHMEDABAD ,West,Standard,16-Apr-2026,997,Past Due,Organic,3.0,4.0,5,Web,Net Banking,customer223@example.com
+50224,  Ishaan Menon ,43,Bangalore,South,Basic,06/09/2025,552,Paused,Organic,0.0,4.9,12,Web,Credit Card,customer224@example.com
+50225,  Arjun Gupta ,25,Kochi,South,Standard,2023-09-01,921,Paused,Referral,4.0,4.0,36,Web,Wallet,customer225@example.com
+50226,  Ishaan Nair ,24,pnq,West,Premium,2024/08/07,"1,915",Active,Paid Search,2.0,,25,Desktop,UPI,customer226@example.com
+50227,  Arjun Patel ,29,Bangalore,South,Standard,2026-02-16,"1,038",Paused,Paid Search,3.0,3.9,7,Android,UPI,customer227@example.com
+50228,Arjun Bose,34,Ahmedabad,West,Premium,22/01/2026,"2,207",Trial,Social,2.0,5.0,8,Desktop,Net Banking,customer228@example.com
+50229,Nisha Iyer,28,Jaipur,North,Premium,2026/01/22,"2,440",Past Due,Email,3.0,3.0,8,Web,Wallet,customer229@example.com
+50230,Arjun Nair,42,Pune,West,Basic,2023-11-21,493,Churned,Email,1.0,4.6,34,Android,Credit Card,customer230@example.com
+50231,  Meera Khan ,31,Kolkata,East,Premium,2024/09/22,"1,995",Trial,Referral,,5.0,24,Desktop,Wallet,customer231@example.com
+50232,  Aditya Gupta ,18,Pune,West,Standard,2024/09/08,841,Churned,Paid Search,1.0,3.0,24,Android,Credit Card,
+50233,  Priya Sharma ,50,Bangalore,South,Standard,26-Apr-2024,975,Active,Paid Search,1.0,4.3,29,Desktop,UPI,customer233@example.com
+50234,Reyansh Patel,19,hyd,South,Basic,2023-09-21,510,Past Due,Referral,2.0,,36,Web,Debit Card,customer234@example.com
+50235,Nisha Mehta,24,ccu,East,Premium,2025-04-26,"1,735",Paused,Social,4.0,3.4,17,Desktop,Debit Card,
+50236,  Aarav Menon ,18,blr,South,Premium,2023/03/30,"2,024",Active,Paid Search,3.0,4.7,42,Desktop,Debit Card,customer236@example.com
+50237,Rohan Patel,23,Jaipur,North,Premium,06-Jun-2023,"2,167",Trial,Email,2.0,3.5,39,Web,Wallet,customer237@example.com
+50238,Sara Nair,26,pnq,West,Basic,02/06/2024,445,Churned,Partner,2.0,4.6,27,Android,Wallet,customer238@example.com
+50239,priya gupta,18,Bengaluru,South,Standard,15-Jun-2025,"1,022",Paused,Partner,3.0,4.7,15,Desktop,Wallet,customer239@example.com
+50240,PRIYA DAS,34,jai,North,Standard,23/06/2025,"1,050",Active,Paid Search,3.0,,15,Desktop,Credit Card,customer240@example.com
+50241,  Rohan Khan ,18,Jaipur,North,Standard,18/03/2025,948,Past Due,Social,0.0,3.0,18,Android,Credit Card,customer241@example.com
+50242,Tara Das,18,Chennai,South,Enterprise,23/09/2024,"6,263",Past Due,Social,,4.7,24,Android,UPI,
+50243,  Sara Singh ,23, BANGALORE ,West,Standard,2024-10-17,"1,095",Trial,Social,4.0,8.7,23,Desktop,Credit Card,customer243@example.com
+50244,  Meera Rao ,23, AMD ,West,Standard,10/08/2023,"1,155",Past Due,Social,0.0,4.7,37,iOS,Debit Card,customer244@example.com
+50245,ANANYA NAIR,24, MUMBAI ,West,Basic,19/07/2024,501,Paused,Referral,1.0,4.5,26,iOS,UPI,customer245@example.com
+50246,tara nair,36,Bombay,West,Basic,02/02/2024,588,Paused,Social,2.0,3.6,31,Desktop,Debit Card,customer246@example.com
+50247,AARAV MENON,25,Mumbai,West,Standard,30-Nov-2023,"1,189",Past Due,Partner,3.0,4.0,34,Desktop,UPI,customer247@example.com
+50248,  Nisha Khan ,38,Bombay,West,Standard,2025/10/17,"1,267",Churned,Email,3.0,5.0,11,Android,Wallet,customer248@example.com
+50249,ISHAAN KULKARNI,36,mum,West,Standard,2026/07/17,"1,012",Trial,Social,,4.2,2,Desktop,Net Banking,customer249@example.com
+50250,PRIYA MENON,35,Jaipur,North,Standard,23/07/2024,839,Active,Partner,2.0,4.9,26,Android,UPI,customer250@example.com
+50251,  Aditya Das ,18,Calcutta,East,Enterprise,2024/06/23,"8,832",Active,Organic,5.0,5.0,27,Web,Debit Card,customer251@example.com
+50252,Kavya Menon,36,pnq,West,Basic,2025-06-05,424,Paused,Referral,3.0,3.5,15,iOS,Credit Card,customer252@example.com
+50253,  Aarav Das ,28,hyd,South,Premium,2023-05-05,"1,886",Churned,Partner,1.0,5.0,40,iOS,UPI,customer253@example.com
+50254,tara mehta,35,Madras,South,Standard,2023-07-12,"1,073",Active,Organic,2.0,3.3,38,iOS,UPI,customer254@example.com
+50255,aditya rao,38,cok,South,Basic,2024/05/04,514,active,Social,2.0,4.2,28,Android,UPI,customer255@example.com
+50256,ADITYA MENON,33,ccu,East,Basic,2023-05-24,511,Trial,Email,1.0,3.5,40,Web,UPI,customer256@example.com
+50257,reyansh patel,49, BENGALURU ,South,Standard,09-Feb-2023,"1,015",Churned,Email,1.0,3.6,43,Web,Debit Card,customer257@example.com
+50258,Rohan Mehta,25,chn,South,Premium,24-Mar-2025,"2,293",Trial,Social,1.0,2.9,18,Android,Debit Card,customer258@example.com
+50259,Ishaan Iyer,42,ccu,East,Enterprise,25-Apr-2026,"6,307",Churned,Paid Search,0.0,4.3,5,Android,Debit Card,customer259@example.com
+50260,  Aarav Kulkarni ,21,Bangalore,South,Basic,2024-12-16,484,Churned,Social,2.0,4.2,21,iOS,Wallet,customer260@example.com
+50261,Vivaan Menon,31,,South,Premium,04-Feb-2026,"2,115",Churned,Partner,2.0,5.0,7,iOS,Wallet,customer261@example.com
+50262,TARA KAPOOR,22,Bangalore,South,Standard,19/01/2024,980,Churned,Email,4.0,3.4,32,Web,Credit Card,customer262@example.com
+50263,  Ishaan Bose ,39,jai,North,Premium,2025/10/16,"2,193",Churned,Social,,4.5,11,Web,Net Banking,customer263@example.com
+50264,kavya rao,32, CALCUTTA ,East,Standard,30-Jan-2024,910,Active,Social,2.0,3.7,32,Desktop,Credit Card,customer264@example.com
+50265,PRIYA RAO,39,Bombay,West,Standard,11/08/2025,902,active,Social,3.0,3.4,13,Web,Wallet,customer265@example.com
+50266,  Priya Bose ,47,ccu,East,Standard,14/12/2024,"1,199",Trial,,3.0,3.6,21,Web,Wallet,customer266@example.com
+50267,  Priya Bose ,21, BENGALURU ,South,Basic,14/01/2024,579,Past Due,Partner,4.0,4.3,32,Android,Credit Card,customer267@example.com
+50268,Aditya Khan,32,cok,South,Basic,2025-08-13,440,Active,Paid Search,3.0,4.2,13,Android,Credit Card,customer268@example.com
+50269,ISHAAN BOSE,45, BENGALURU ,South,PREMIUM ,2025-04-12,"1,835",Active,Paid Search,1.0,3.7,17,Android,Net Banking,customer269@example.com
+50270,REYANSH GUPTA,45,Bengaluru,South,Premium,22/03/2024,"1,520",Past Due,Social,,3.7,30,iOS,Net Banking,customer270@example.com
+50271,Vivaan Nair,35,Hyderabad,South,Enterprise,2026-07-18,"8,041",Trial,Paid Search,4.0,4.7,2,Android,Net Banking,customer13@example.com
+50272,  Kavya Bose ,29, JAIPUR ,North,Standard,16-Mar-2024,"1,002",Trial,Partner,2.0,2.9,30,Android,UPI,customer272@example.com
+50273,KAVYA PATEL,51,Madras,South,Premium,25/07/2023,"2,157",Trial,Email,2.0,4.3,38,iOS,UPI,customer273@example.com
+50274,ananya kulkarni,31,Ahmedabad,West,Basic,08-Jul-2025,485,Churned,Social,0.0,2.9,14,Desktop,Net Banking,customer274@example.com
+50275,Ananya Iyer,36,hyd,South,Premium,2025/12/10,"1,553",Paused,Email,3.0,,9,iOS,Credit Card,customer275@example.com
+50276,ananya iyer,30,Delhi,North,Premium,2026/06/03,"1,796",Past Due,Organic,,3.7,3,Desktop,Debit Card,customer276@example.com
+50277,priya khan,33,pnq,West,Standard,2025/04/06,"1,037",Active,Paid Search,0.0,4.3,17,iOS,Credit Card,customer277@example.com
+50278,nisha singh,35,pnq,West,Premium,,"1,761",Churned,Referral,2.0,3.4,13,iOS,Credit Card,customer278@example.com
+50279,aditya singh,34,pnq,West,Standard,2025/05/17,949,Churned,Email,2.0,3.7,16,Android,UPI,customer279@example.com
+50280,Kabir Mehta,25,Delhi,North,Premium,2024/01/22,"2,221",Past Due,Social,2.0,,32,iOS,Credit Card,customer280@example.com
+50281,  Sara Singh ,42,Kochi,South,Basic,20-Sep-2024,498,Churned,Social,0.0,3.8,24,Web,Wallet,customer281@example.com
+50282,  Aditya Kulkarni ,41,Ahmedabad,West,Premium,2024-05-17,"1,692",Churned,Email,3.0,4.6,28,Android,UPI,customer282@example.com
+50283,ishaan sharma,47,Bengaluru,South,Basic,15/08/2024,533.5,Past Due,Partner,1.0,4.0,25,Web,Net Banking,customer283@example.com
+50284,Diya Patel,34, MADRAS ,South,Premium,2025-09-28,"2,126",Past Due,Referral,1.0,3.9,12,iOS,Wallet,customer284@example.com
+50285,Ananya Gupta,21,Madras,South,BASIC ,2023/01/17,429,Paused,Partner,1.0,3.4,44,Desktop,UPI,customer285@example.com
+50286,TARA MENON,33,Bombay,West,Standard,2023-08-17,974,Trial,Referral,1.0,3.5,37,Web,Credit Card,customer286@example.com
+50287,ANANYA MENON,28, NEW DELHI ,North,Standard,2026/05/22,999,Past Due,Social,,2.4,4,Android,UPI,customer287@example.com
+50288,ISHAAN PATEL,29,Delhi,North,Premium,2024-01-17,"2,057",Churned,Social,5.0,3.9,32,Desktop,Debit Card,customer288@example.com
+50289,ISHAAN SHARMA,41,Pune,West,Basic,2024-08-09,409,Churned,Organic,2.0,2.6,25,Web,Debit Card,customer289@example.com
+50290,Kabir Sharma,24,Jaipur,North,Standard,2026/07/15,"1,064",Trial,Social,1.0,,2,Android,Debit Card,customer290@example.com
+50291,Tara Kulkarni,27,Calcutta,East,Standard,13/07/2023,"1,076",Churned,Social,2.0,4.4,38,Android,Credit Card,customer36@example.com
+50292,Sara Bose,18, CCU ,East,Standard,2024/06/11,"1,009",Churned,Email,1.0,,27,Web,Debit Card,customer292@example.com
+50293,Tara Kapoor,41, BLR ,South,Standard,2025-12-25,"1,055",Trial,Paid Search,4.0,3.5,9,Android,UPI,customer293@example.com
+50294,KAVYA MENON,27, AMD ,,Basic,08-Aug-2024,431,CHURNED ,,2.0,,25,iOS,Net Banking,customer294@example.com
+50295,Tara Gupta,30,Jaipur,North,Basic,2024-05-21,374,Past Due,Organic,3.0,3.8,28,Desktop,Net Banking,customer295@example.com
+50296,kavya nair,22,mum,West,Basic,10/04/2023,478,Active,Social,2.0,4.9,41,Web,Debit Card,customer296@example.com
+50297,Ishaan Mehta,18,amd,West,Standard,2026-01-05,"1,003",Past Due,Social,3.0,4.6,8,Web,Debit Card,customer297@example.com
+50298,aditya kapoor,25,jai,North,Premium,31-Mar-2026,"2,132",Past Due,Social,2.0,3.6,6,iOS,Wallet,customer298@example.com
+50299,  Meera Khan ,45,Ahmedabad,West,Basic,05-Jan-2024,457,Churned,Organic,1.0,4.6,32,Android,UPI,customer299@example.com
+50300,Aditya Nair,42,mum,north,Premium,2024/08/21,"1,872",Churned,Referral,0.0,4.5,25,Web,Debit Card,customer300@example.com
+50041,Sara Khan,26,cok,South,Basic,05-May-2023,"1,250",Past Due,Organic,1.0,2.7,40,Web,Wallet,customer301@example.com
+50302,nisha khan,55,Kolkata,East,Standard,2024/05/20,"1,067",Churned,Organic,1.0,4.1,28,Web,Credit Card,customer302@example.com
+50303,  Kavya Gupta ,25,ccu,East,Standard,2023/05/09,"1,187",Past Due,Partner,4.0,,40,Desktop,Net Banking,customer303@example.com
+50304,Kavya Menon,29,Madras,South,Standard,17-Nov-2023,834.55,Trial,Social,2.0,2.8,34,Web,UPI,customer304@example.com
+50305,  Meera Patel ,37,Hyderabad,South,Enterprise,30-Mar-2023,"7,189",Active,Organic,1.0,3.6,42,Desktop,Credit Card,customer305@example.com
+50306,meera sharma,29,blr,South,Standard,2026-06-13,"1,041",Past Due,Partner,1.0,4.1,3,Android,Wallet,customer306@example.com
+50307,  Reyansh Menon ,38,Jaipur,North,Basic,21/07/2023,445,Active,Email,2.0,5.0,38,Android,Debit Card,customer307@example.com
+50308,priya nair,30,Mumbai,West,Enterprise,03-Jun-2023,"6,673",Churned,Paid Search,6.0,3.9,39,Web,Debit Card,customer308@example.com
+50309,ROHAN SINGH,43,Bengaluru,South,Premium,2024/03/03,"1,727",past_due,Organic,1.0,4.9,30,Web,UPI,
+50310,Kabir Das,45,chn,South,Basic,2025/07/18,472,Active,,0.0,3.8,14,Web,Debit Card,customer310@example.com
+50311,  Priya Sharma ,55,Hyderabad,South,Premium,2025-06-28,"2,034",past_due,Social,1.0,,15,Android,Credit Card,customer311@example.com
+50312,arjun kapoor,31,Bangalore,South,Standard,2025/08/22,991,Churned,Paid Search,4.0,4.9,13,Android,Credit Card,customer312@example.com
+50313,Arjun Singh,25,ccu,East,Standard,25-Oct-2024,921,Past Due,Paid Search,3.0,,23,iOS,UPI,customer313@example.com
+50314,ISHAAN MENON,42,amd,West,Standard,2023-02-02,962,Past Due,Referral,1.0,4.7,43,Desktop,Credit Card,customer314@example.com
+50315,ARJUN MENON,30,Bengaluru,South,Premium,25/03/2025,"1,937",Churned,,6.0,3.8,18,Desktop,Debit Card,customer315@example.com
+50316,VIVAAN MEHTA,18, HYD ,South,Standard,07-Mar-2024,788,active,Organic,1.0,4.0,30,Desktop,Credit Card,customer316@example.com
+50317,priya kapoor,22,Chennai,South,Basic,2023/12/12,490,Active,Social,2.0,2.4,33,Web,Net Banking,customer317@example.com
+50318,  Ishaan Sharma ,30,Bangalore,South,Standard,2024-05-14,928,Churned,Organic,2.0,3.8,28,Web,Credit Card,customer318@example.com
+50319,reyansh patel,36,Kolkata,East,Standard,2023/01/28,"1,083",Trial,Social,1.0,3.7,44,Desktop,Wallet,customer319@example.com
+50005,kavya rao,31,Jaipur,North,Standard,28/07/2025,"1,079",Trial,Referral,4.0,3.9,14,Desktop,UPI,customer5@example.com
