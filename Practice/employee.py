@@ -103,20 +103,32 @@ def phase_4_predictive_modeling(df):
     # TODO: Set X = df[['Training_Hours']] and y = df['Weekly_Tasks_Completed']
     # TODO: Fit Linear Regression model and output slope & intercept
 
-    X = df[['Training_Hours']]
+    # X = df[['Training_Hours']]
+    # y = df['Weekly_Tasks_Completed']
+    #
+    # model = LinearRegression()
+    # model.fit(X, y)
+    #
+    # slope = model.coef_[0]
+    # intercept = model.intercept_
+    #
+    # print(f"Linear Regression Model: Weekly_Tasks_Completed = {slope:.2f} * Training_Hours + {intercept:.2f}")
+    #
+    # return model, X, y
+
+    x = df[['Training_Hours']]
     y = df['Weekly_Tasks_Completed']
 
     model = LinearRegression()
-    model.fit(X, y)
+    model.fit(x,y)
 
-    slope = model.coef_[0]
+    slope=model.coef_[0]
     intercept = model.intercept_
 
-    print(f"Linear Regression Model: Weekly_Tasks_Completed = {slope:.2f} * Training_Hours + {intercept:.2f}")
+    print("Slope",slope)
+    print("Inttercept", intercept)
 
-    return model, X, y
-
-
+    return model , x , y
 
 def phase_5_evaluation_and_reporting(model, X, y, df):
     """
@@ -129,28 +141,30 @@ def phase_5_evaluation_and_reporting(model, X, y, df):
     # TODO: Calculate R2 score and Mean Absolute Error (MAE)
     # TODO: Print prescriptive action item for employee training investments
 
-    y_pred = model.predict(X)
-    r2 = r2_score(y, y_pred)
-    mae = mean_absolute_error(y, y_pred)
 
-    print("R2 Score:", r2)
-    print("Mean Absolute Error (MAE):", mae)
 
-    correlation = df[['Training_Hours', 'Weekly_Tasks_Completed']].corr().iloc[0, 1]
-    if correlation > 0.7 and r2 > 0.7:
-
-        print("Strong relationship detected.")
-        print("Invest in structured employee training.")
-
-    elif correlation > 0.4 and r2 > 0.4:
-
-        print("Moderate relationship detected.")
-        print("Consider targeted training programs.")
-
-    else:
-
-        print("Limited predictive relationship detected.")
-        print("Investigate other productivity factors.")
+    # y_pred = model.predict(X)
+    # r2 = r2_score(y, y_pred)
+    # mae = mean_absolute_error(y, y_pred)
+    #
+    # print("R2 Score:", r2)
+    # print("Mean Absolute Error (MAE):", mae)
+    #
+    # correlation = df[['Training_Hours', 'Weekly_Tasks_Completed']].corr().iloc[0, 1]
+    # if correlation > 0.7 and r2 > 0.7:
+    #
+    #     print("Strong relationship detected.")
+    #     print("Invest in structured employee training.")
+    #
+    # elif correlation > 0.4 and r2 > 0.4:
+    #
+    #     print("Moderate relationship detected.")
+    #     print("Consider targeted training programs.")
+    #
+    # else:
+    #
+    #     print("Limited predictive relationship detected.")
+    #     print("Investigate other productivity factors.")
 
 def run_analytics_lifecycle():
     """

@@ -9,7 +9,7 @@ Description: A modular Python exercise script for loading, sanitizing, and analy
 # Step 0: Import necessary libraries
 # TODO: Import pandas, datetime, and any required modules
 import pandas as pd
-import numpy as no
+import numpy as np
 
 
 
@@ -58,11 +58,17 @@ def phase_2_birthday_paradox_analysis(df):
     df['birth_month'] = df['birth_date'].dt.month
     df['birth_day'] = df['birth_date'].dt.day
 
-    bday_freq = df['birth_date'].value_counts().sort_index()
-    print("Birthday Frequency Distribution:", bday_freq)
+    # bday_freq = df['birth_date'].value_counts().sort_index()
+    # print("Birthday Frequency Distribution:", bday_freq)
+
+
+    df['birthday'] = df['birth_date'].dt.strftime('%m-%d')
+
+    bday_freq=df["birthday"].value_counts().sort_index()
 
     shared_dates = bday_freq[bday_freq > 1]
     print("Shared Birth Dates:", shared_dates)
+    print(shared_dates.sum())
     return df
 
 
@@ -76,7 +82,21 @@ def phase_3_player_lookup_system(df, player_name):
     print("-" * 65)
     # TODO: Filter dataframe for the specified player name
     # TODO: Extract and return player details (Position, Ht, Wt, Colleges, Birth Date)
-    pass
+
+    df['player'] = df['player'].str.lower().str.strip()
+    player_name = player_name.lower()
+
+    result = df[df['player'].str.contains(player_name, case=False, na=False)]
+    # print(result)
+    # if player_name in df['player']:
+    #
+    #     print(df[df['player' , 'ht' , 'wt' , 'colleges' , 'birth_date']])
+
+    details = result[['player', 'ht' , 'wt' , 'colleges' , 'birth_date']]
+    print(details)
+    return details
+
+
 
 
 def phase_4_shared_birthday_cohort(df, player_name):
@@ -90,7 +110,18 @@ def phase_4_shared_birthday_cohort(df, player_name):
     # TODO: Retrieve the birth date of the target player from Phase 3
     # TODO: Query the dataset for all other players born on that exact month and day (or year)
     # TODO: Output the list of peer players sharing the birthday
-    pass
+
+    player_birthday = df.loc[df['player'].str.contains(player_name, case=False, na=False) , 'birthday'].iloc[0]
+    print(player_birthday)
+
+    birthday_match = df[
+        (df['birthday'] == player_birthday) &
+        (df['player'] != player_name.lower())
+    ]
+
+    print(birthday_match[['player','birthday']])
+
+    return df
 
 
 def phase_5_evaluation_and_summary(df):
@@ -123,8 +154,8 @@ def run_analytics_lifecycle():
     # Executing phases chronologically
     df = phase_1_discovery_and_sanitization()
     df = phase_2_birthday_paradox_analysis(df)
-    # phase_3_player_lookup_system(df, target_player)
-    # phase_4_shared_birthday_cohort(df, target_player)
+    phase_3_player_lookup_system(df, target_player)
+    phase_4_shared_birthday_cohort(df, target_player)
     # phase_5_evaluation_and_summary(df)
     pd.set_option('display.max_columns', None)
     pd.set_option("display.width", None)
