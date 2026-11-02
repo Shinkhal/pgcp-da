@@ -18,7 +18,13 @@ class DataCleaning:
         self.df = df.copy()
 
     def snake_case(self) -> "DataCleaning":
-        self.df.columns = (self.df.columns.str.strip().str.lower().str.replace(' ','_'))
+        self.df.columns = (
+            self.df.columns
+            .str.strip()
+            .str.lower()
+            .str.replace(r'[\s\-]+', '_', regex=True)
+            .str.replace(r'[^a-z0-9_]', '', regex=True)
+        )
         logger.log(logging.INFO, "Converted columns to snake_case")
         return self
 
@@ -37,7 +43,7 @@ class DataCleaning:
 
         # Convert payment method to string
         self.df['payment_method'] = (
-            self.df['payment_method'].astype('str')
+            self.df['payment_method'].astype('string')
         )
 
         # Remove commas and convert revenue to numeric
@@ -73,17 +79,34 @@ class DataCleaning:
         return self
 
     def drop_duplicates(self) -> "DataCleaning":
+
         initial_rows = len(self.df)
-        self.df = self.df.drop_duplicates().reset_index(drop=True)
+
+        self.df = (
+            self.df
+            .drop_duplicates(subset=['customer_id'], keep='first')
+            .reset_index(drop=True)
+        )
+
         removed = initial_rows - len(self.df)
-        logger.info(f"Removed {removed} duplicate rows")
+
+        logger.info(
+            "Duplicate removal completed | Before: %d | After: %d | Removed: %d",
+            initial_rows,
+            len(self.df),
+            removed
+        )
+
         return self
 
     def fill_missing(self)-> "DataCleaning":
         # if 'satisfaction_score' in self.df.columns:
         #     self.df['satisfaction_score'] = self.df['satisfaction_score'].fillna(self.df['satisfaction_score'].mean())
 
-        numeric_cols = self.df.select_dtypes(include=['float','integer','datetime']).columns
+        numeric_cols = self.df.select_dtypes(
+            include='number'
+        ).columns.drop('customer_id', errors='ignore')
+
         for col in numeric_cols:
             self.df[col]= self.df[col].fillna(self.df[col].median())
 
@@ -95,6 +118,11 @@ class DataCleaning:
 
             mode_value = self.df[col].mode()
             self.df[col] = self.df[col].fillna(mode_value.iloc[0])
+
+        date_cols = self.df.select_dtypes(include=['datetime64[ns]']).columns
+        for col in date_cols:
+            self.df[col] = self.df[col].fillna(self.df[col].median())
+
 
         return self
 
@@ -162,7 +190,7 @@ class DataCleaning:
         logger.info("City standardized successfully")
         return self
 
-    def get_data(self) -> DataFrame:
+    def get_data(self) -> pd.DataFrame:
         return self.df
 
 
