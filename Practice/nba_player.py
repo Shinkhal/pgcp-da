@@ -133,7 +133,20 @@ def phase_5_evaluation_and_summary(df):
     print("\n[PHASE 5] Evaluation & Summary Reporting (5 Marks)")
     print("-" * 65)
     # TODO: Print final summary statistics regarding dataset coverage and duplicate birthdays
-    pass
+
+    summary_stats = {
+        'Total Players': df.shape[0],
+        'Unique Birth Dates': df['birthday'].nunique(),
+        'Players with Shared Birthdays': df[df.duplicated(subset='birthday', keep=False)].shape[0],
+        'Most Common Birth Month': df['birth_month'].mode()[0],
+        'Most Common Birth Day': df['birthday'].mode()[0]
+    }
+    print("Summary Statistics:")
+    for key, value in summary_stats.items():
+        print(f"{key}: {value}")
+
+
+
 
 
 # ==========================================
@@ -156,7 +169,7 @@ def run_analytics_lifecycle():
     df = phase_2_birthday_paradox_analysis(df)
     phase_3_player_lookup_system(df, target_player)
     phase_4_shared_birthday_cohort(df, target_player)
-    # phase_5_evaluation_and_summary(df)
+    phase_5_evaluation_and_summary(df)
     pd.set_option('display.max_columns', None)
     pd.set_option("display.width", None)
     print(df)
