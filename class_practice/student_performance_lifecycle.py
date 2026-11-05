@@ -10,6 +10,20 @@ Dataset: student_performance.csv (70 rows)
 # TODO: Import accuracy_score, precision_score, recall_score,
 #       f1_score, and confusion_matrix.
 
+import pandas as pd
+import numpy as np
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import (
+    accuracy_score,
+    precision_score,
+    recall_score,
+    f1_score,
+    confusion_matrix,
+)
+
+
 
 def phase_1_discovery_and_setup():
     """
@@ -23,6 +37,26 @@ def phase_1_discovery_and_setup():
     # TODO: Load CSV
     # TODO: Inspect dataset
     # TODO: Handle missing values
+    df = pd.read_csv("student_performance.csv")
+    df.columns = (
+        df.columns.str.strip().str.lower().str.replace(" ", "_")
+    )
+    print(df.head())
+    df.info()
+    missing = df.isnull().sum()
+    missing_percentage = (df.isnull().mean() * 100).round(2)
+    missing_report = pd.DataFrame({
+        "Missing Values": missing,
+        "Missing Percentage": missing_percentage
+    })
+    print(missing_report)
+
+    missing_cols = df.select_dtypes(include=np.number).columns[df.select_dtypes(include=np.number).isnull().any()]
+    for col in missing_cols:
+        median_val = df[col].median()
+        df[col] = df[col].fillna(median_val)
+
+    print("Missing values filled with median for numerical columns.")
 
     return df
 
@@ -43,6 +77,22 @@ def phase_2_descriptive_statistics(df):
     # TODO: Identify outliers
     # TODO: Analyze streams
 
+    target = df['exam_score']
+    mean = target.mean()
+    median = target.median()
+    std = target.std()
+    q1 = target.quantile(0.25)
+    q3 = target.quantile(0.75)
+    iqr = q3 - q1
+    lower_bound = q1 - 1.5 * iqr
+    upper_bound = q3 + 1.5 * iqr
+    outliers = df[(target < lower_bound) | (target > upper_bound)]
+    print(f"Mean: {mean:.2f}, Median: {median:.2f}, Std Dev: {std:.2f}")
+    print(f"Lower Bound: {lower_bound:.2f}, Upper Bound: {upper_bound:.2f}")
+    print(f"Outliers:\n{outliers}")
+
+    stream_analysis = df.groupby('stream')['exam_score'].mean()
+    print(f"Average Exam_Score per Stream:\n{stream_analysis}")
     return df
 
 
@@ -59,25 +109,54 @@ def phase_3_bivariate_association(df):
     # TODO: Analyze selected correlations
     # TODO: Identify strongest feature
 
+    numeric_cols = df.select_dtypes(include=np.number).columns
+    correlation_matrix = df[numeric_cols].corr(method='pearson')
+    print("Pearson Correlation Matrix:")
+    print(correlation_matrix)
+    strongest_feature = correlation_matrix['exam_score'].drop('exam_score').abs().idxmax()
+    print(f"Feature most strongly correlated with Exam_Score: {strongest_feature}")
     return df
 
 
 def phase_4_predictive_modeling(df):
-    """
-    [Phase 4] Predictive Modeling (10 Marks)
-    - Create a Pass/Fail target from Exam_Score.
-    - Predict student performance using Logistic Regression.
-    """
+
     print("\n[PHASE 4] Predictive Modeling")
     print("-" * 65)
 
-    # TODO: Create binary target (Pass/Fail)
-    # TODO: Prepare features
-    # TODO: Encode categorical data
-    # TODO: Split dataset (80:20)
-    # TODO: Scale features
-    # TODO: Train Logistic Regression
-    # TODO: Generate predictions
+    # Create target
+    df['pass_fail'] = np.where(df['exam_score'] >= 50, 1, 0)
+
+    # Prepare features
+    X = df[['study_hours', 'attendance_pct', 'sleep_hours', 'stream']]
+    y = df['pass_fail']
+
+    # Encode categorical feature
+    X = pd.get_dummies(X, columns=['stream'], drop_first=True, dtype=int)
+
+    # Split dataset
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y,
+        test_size=0.2,
+        random_state=42,
+        stratify=y
+    )
+
+    # Scale features
+    scaler = StandardScaler()
+
+    X_train = scaler.fit_transform(X_train)
+    X_test = scaler.transform(X_test)
+
+    # Train model
+    model = LogisticRegression(max_iter=1000)
+    model.fit(X_train, y_train)
+
+    # Predictions
+    y_pred = model.predict(X_test)
+
+    print("Model trained successfully.")
+    print("Coefficients:", model.coef_)
+    print("Intercept:", model.intercept_)
 
     return model, X_test, y_test, y_pred
 
@@ -95,6 +174,20 @@ def phase_5_evaluation_and_reporting(model, X_test, y_test, y_pred, df):
     # TODO: Display confusion matrix
     # TODO: Interpret model performance
     # TODO: Generate recommendations
+
+    accuracy = accuracy_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred)
+    recall = recall_score(y_test, y_pred)
+    f1 = f1_score(y_test, y_pred)
+
+    cm = confusion_matrix(y_test, y_pred)
+
+    print(f"Accuracy: {accuracy:.4f}")
+    print(f"Precision: {precision:.4f}")
+    print(f"Recall: {recall:.4f}")
+    print(f"F1 Score: {f1:.4f}")
+    print("Confusion Matrix:")
+    print(cm)
 
 
 def run_analytics_lifecycle():
