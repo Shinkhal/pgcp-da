@@ -5,14 +5,14 @@ Description: A modular Python exercise script for loading clean customer churn d
              scaling features, training a Random Forest classifier, evaluating performance,
              and persisting the trained pipeline artifacts using joblib.
 """
-
-
+import joblib
 # Step 0: Import necessary libraries
 # TODO: Import pandas, numpy, train_test_split, StandardScaler,
 #       LogisticRegression, accuracy_score, classification_report, confusion_matrix, and joblib
 
 import pandas as pd
 import numpy as np
+from matplotlib import artist
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
@@ -218,7 +218,25 @@ def phase_5_joblib_model_persistence(model, scaler, feature_names):
     print("-" * 65)
     # TODO: Use joblib.dump() to save the model and scaler to disk (.joblib files)
     # TODO: Load saved artifacts using joblib.load() and perform sample inference
-    pass
+    artifacts = {
+        "model": model,
+        "scaler": scaler,
+        "feature_names": feature_names
+    }
+    joblib.dump(artifacts, "customer_churn_model.joblib")
+    print("Model saved successfully")
+    loaded = joblib.load("customer_churn_model.joblib")
+    loaded_model = loaded["model"]
+    loaded_scaler = loaded["scaler"]
+    loaded_features = loaded["feature_names"]
+
+    test_data = pd.DataFrame(
+        [[5000, 45.0, 150, 3.5, 20, 1, 0, 1]],
+        columns=loaded_features
+    )
+    test_data_scaled = loaded_scaler.transform(test_data)
+    predicted_class = loaded_model.predict(test_data_scaled)[0]
+    print(f"Predicted class for new sample: {predicted_class}")
 
 
 # ==========================================
@@ -238,7 +256,7 @@ def run_ml_pipeline():
     X_encoded = phase_2_feature_engineering_and_encoding(X)
     X_tr_scaled, X_te_scaled, y_tr, y_te, scaler = phase_3_scaling_and_train_test_split(X_encoded, y)
     model = phase_4_model_training_and_testing(X_tr_scaled, X_te_scaled, y_tr, y_te)
-    # phase_5_joblib_model_persistence(model, scaler, X_encoded.columns.tolist())
+    phase_5_joblib_model_persistence(model, scaler, X_encoded.columns.tolist())
 
 
 # ==========================================
